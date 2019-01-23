@@ -1,0 +1,26 @@
+{
+  "name": "pythonazurefunctionsdevopstask",
+  "version": "1.0.0",
+  "description": "Adding a Task to Azure DevOps to deploy Azure functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crgarcia12/PythonAzureFunctionsDevOpsTask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crgarcia12/PythonAzureFunctionsDevOpsTask/issues"
+  },
+  "homepage": "https://github.com/crgarcia12/PythonAzureFunctionsDevOpsTask#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "@types/q": "^1.5.1"
+  }
+}
