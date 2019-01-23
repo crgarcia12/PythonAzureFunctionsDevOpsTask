@@ -1,0 +1,30 @@
+{
+    "id": "9d0b3949-a281-4082-b4f1-47f0bc762ee2",
+    "name": "DeployPythonAzureFunctions",
+    "friendlyName": "Deploy Python Azure Functions",
+    "description": "Deploy Python Azure Functions to Azure Linux consumption plan",
+    "helpMarkDown": "",
+    "category": "Utility",
+    "author": "Carlos Garcia Lalicata",
+    "version": {
+        "Major": 0,
+        "Minor": 1,
+        "Patch": 0
+    },
+    "instanceNameFormat": "Echo $(samplestring)",
+    "inputs": [
+        {
+            "name": "samplestring",
+            "type": "string",
+            "label": "Sample String",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "A sample string"
+        }
+    ],
+    "execution": {
+        "Node": {
+            "target": "index.js"
+        }
+    }
+}
